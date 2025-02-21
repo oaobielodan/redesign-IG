@@ -9,14 +9,26 @@
     align-items: center;
 }
 
-.pic {
-    width: 250px;
-    /* height: 500px; */
-    object-fit: cover;
+.pic1 {
+    background-image: url("./images/lola-peace.png");
+    background-size: cover;
+    background-position: center;
+    width: 210px;
+    height: 500px;
 }
 
-.pic img{
-    max-width: 100%;
-    height: 100%;
-    display: block;
+.pic2 {
+    background-image: url("./images/lola-brown.png");
+    background-size: cover;
+    background-position: center;
+    width: 210px;
+    height: 500px;
+}
+
+.pic3 {
+    background-image: url("./images/lola-pizza.png");
+    background-size: cover;
+    background-position: center;
+    width: 210px;
+    height: 500px;
 }
