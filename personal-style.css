@@ -1,6 +1,7 @@
 .header-pics {
-    margin: auto;
-    max-width: 70vw;
+    margin: 0 auto;
+    align-self: center;
+    max-width: 750px;
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -9,26 +10,36 @@
     align-items: center;
 }
 
-.pic1 {
-    background-image: url("./images/lola-peace.png");
-    background-size: cover;
-    background-position: center;
-    width: 210px;
-    height: 500px;
+.spacer {
+    height: 50px;
 }
 
-.pic2 {
-    background-image: url("./images/lola-brown.png");
+.pic {
     background-size: cover;
     background-position: center;
     width: 210px;
     height: 500px;
+
+    color: bisque;
+    font-size: 120px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
-.pic3 {
-    background-image: url("./images/lola-pizza.png");
-    background-size: cover;
-    background-position: center;
-    width: 210px;
-    height: 500px;
+.info {
+    margin: auto;
+    max-width: 70vw;
+}
+
+.info .username {
+    font-size: 50px;
+    line-height: 0;
+    letter-spacing: 3px;
+}
+
+.info .bio {
+    font-size: 25px;
+    line-height: 0;
+    letter-spacing: 3px;
 }
