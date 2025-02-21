@@ -1,0 +1,22 @@
+.header-pics {
+    margin: auto;
+    max-width: 70vw;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px; 
+    justify-items: center; 
+    align-items: center;
+}
+
+.pic {
+    width: 250px;
+    /* height: 500px; */
+    object-fit: cover;
+}
+
+.pic img{
+    max-width: 100%;
+    height: 100%;
+    display: block;
+}
