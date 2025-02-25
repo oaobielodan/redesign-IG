@@ -91,10 +91,10 @@
     display: grid;
     float: left;
     grid-template-columns: 1fr;
-    row-gap: 10px;
+    row-gap: 15px;
 
     background-color: pink;
-    border: 10px solid pink;
+    border: 15px solid pink;
 }
 
 .pre {
@@ -102,4 +102,14 @@
     background-position: center;
     width: 150px;
     height: 200px;
+}
+
+.about {
+    height: 150px;
+    width: 450px;
+    background-color: pink;
+
+    font-size: 22px;
+    right: 0px;
+    padding: 10px;
 }
