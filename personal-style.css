@@ -60,7 +60,7 @@
 
 .share-button {
     padding: 30px 60px;
-    border: 3px solid pink;
+    border: 3px solid #664e3c;
     border-radius: 15px;
 
     background-color: white;
@@ -72,7 +72,7 @@
 }
 
 .share-button:hover {
-    background-color: pink;
+    background-color: #664e3c;
     color: white;
 }
 
@@ -93,8 +93,8 @@
     grid-template-columns: 1fr;
     row-gap: 15px;
 
-    background-color: pink;
-    border: 15px solid pink;
+    background-color: #664e3c;
+    border: 15px solid #664e3c;
 }
 
 .pre {
@@ -110,6 +110,13 @@
     background-color: pink;
 
     font-size: 22px;
+    font-weight: bold;
+    color: #664e3c;
     right: 0px;
     padding: 10px;
+}
+
+.about p {
+    margin-top: 10px;    
+    margin-bottom: 0;
 }
