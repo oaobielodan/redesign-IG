@@ -27,9 +27,11 @@
     justify-content: center;
 }
 
-.info {
+.info-share {
     margin: auto;
-    max-width: 70vw;
+    max-width: 50vw;
+    display: flex;
+    justify-content: space-between; 
 }
 
 .info .username {
@@ -42,4 +44,33 @@
     font-size: 25px;
     line-height: 0;
     letter-spacing: 3px;
+}
+
+.info-share .info {
+    display: inline;
+    float: left;
+}
+
+.info-share .share {
+    display: inline;
+    float: right;
+    padding: 20px;
+}
+
+.share-button {
+    padding: 30px 60px;
+    border: 3px solid pink;
+    border-radius: 15px;
+
+    background-color: white;
+    color: black;
+
+    text-align: center;
+    font-size: 24px;
+    transition-duration: 0.4s;
+}
+
+.share-button:hover {
+    background-color: pink;
+    color: white;
 }
