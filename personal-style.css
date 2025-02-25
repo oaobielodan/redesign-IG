@@ -29,6 +29,7 @@
 
 .info-share {
     margin: auto;
+    min-width: 30vw;
     max-width: 50vw;
     display: flex;
     justify-content: space-between; 
@@ -73,4 +74,32 @@
 .share-button:hover {
     background-color: pink;
     color: white;
+}
+
+.preview-about-content {
+    margin: auto;
+    min-width: 40vw;
+    max-width: 50vw;
+}
+
+.preview-about-content .about-content {
+    display: inline;
+    float: right;
+}
+
+.preview {
+    display: grid;
+    float: left;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+
+    background-color: pink;
+    border: 10px solid pink;
+}
+
+.pre {
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 200px;
 }
