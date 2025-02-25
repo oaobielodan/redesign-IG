@@ -102,6 +102,11 @@
     background-position: center;
     width: 150px;
     height: 200px;
+    filter: grayscale(100%);
+}
+
+.pre:hover {
+    filter: grayscale(0%);
 }
 
 .about {
